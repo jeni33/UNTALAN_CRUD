@@ -1,0 +1,95 @@
+/* Base Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Page Container */
+.customer-box {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    border: 2px solid #9EBC8A;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(83, 125, 93, 0.1);
+}
+
+/* Header and Welcome */
+h2 {
+    text-align: center;
+    color: #537D5D;
+}
+.username {
+    color: #73946B;
+}
+.logout {
+    float: right;
+    color: #537D5D;
+    text-decoration: none;
+}
+
+/* Form Inputs */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button Group Layout */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Buttons */
+button, .btn-delete, [type="submit"] {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Update Button */
+.btn-update, button[name="addOrder"] {
+    background-color: #73946B;
+    color: white;
+}
+
+/* Delete Button */
+.btn-delete {
+    background-color: #D2D0A0;
+    color: #333;
+}
+
+.btn-delete:hover {
+    background-color: #bfbf89;
+}
+
+/* Orders Section */
+.orders {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+.orders h4 {
+    color: #537D5D;
+}
+
+/* Order Delete Link */
+.orders a {
+    color: #D2D0A0;
+    font-weight: bold;
+    float: right;
+    text-decoration: none;
+}
+.orders a:hover {
+    color: #bfbf89;
+}
